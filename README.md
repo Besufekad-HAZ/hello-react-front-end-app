@@ -114,7 +114,7 @@ I am always looking for ways to improve my project. If you have any suggestions 
 
 ## 🎯 Future Features  <a name="future-features"></a>
 
-- [ ] Add more endpoints
+- [ ] Add more features and components
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
