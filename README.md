@@ -104,6 +104,12 @@ npm run dev
 
 I am always looking for ways to improve my project. If you have any suggestions or ideas, I would love to hear from you.
 
+## <a> 👤 Besufekad Alemu </a>
+
+- GitHub: [@Besufekad-HAZ](https://github.com/Besufekad-HAZ)
+- Twitter: [@BesufekadAlemu7](https://twitter.com/BesufekadAlemu7)
+- LinkedIn: [@besura](www.linkedin.com/in/besura)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🎯 Future Features  <a name="future-features"></a>
