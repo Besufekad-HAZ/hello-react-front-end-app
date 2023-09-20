@@ -25,9 +25,9 @@ Greeting App: A React front-end app that displays random greetings fetched from 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📂 Frontend Repository
+## 📂 Backend Repository
 
-The frontend repository for the Greeting App can be found at [hello-react-front-end](https://github.com/indiecodermm/hello-react-front-end). It contains the code for the user interface and interacts with the backend server.
+The backend repository for the Greeting App can be found at [hello-rails-backend](https://github.com/Besufekad-HAZ/hello-rails-backend-app). It contains the server-side code and creates the necessary API endpoint.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
