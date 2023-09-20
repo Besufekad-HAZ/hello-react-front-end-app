@@ -9,7 +9,6 @@
     - [📋 Prerequisites](#-prerequisites)
     - [📂 Setup](#-setup)
     - [📥 Installation](#-installation)
-    - [💾 Database](#-database)
     - [📦 Build](#-build)
     - [💻 Usage](#-usage)
   - [👨‍🚀 Author  ](#-author--)
@@ -22,7 +21,7 @@
 
 # 👋 Greeting App (Back-end)
 
-Greeting App: A React web app that generates random greetings, showcasing the integration of Ruby on Rails and React. Learn how to combine the scalability of Rails with the efficiency of React and build dynamic web applications
+Greeting App: A React front-end app that displays random greetings fetched from a Rails API. Learn how to combine the efficiency of React with the scalability of Rails to build dynamic web applications.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -34,21 +33,18 @@ The frontend repository for the Greeting App can be found at [hello-react-front-
 
 ## 🧰 Tech Stack  <a name="tech-stack"></a>
 
-- Back end: Ruby on Rails
-- Database: PostgreSQL
+- React
+- Redux Toolkit
+- React Router
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ✨ Key Features  <a name="key-features"></a>
 
-- Random Greetings: The app generates a random greeting each time it is loaded
-- API: The back end is built using Ruby on Rails, creating an API endpoint to generate a random greeting message.
+- Fetch data from API
+- Display random greeting message
+- Responsive design
 
-```json
-{
-  "greeting": "Hello, Friend!"
-}
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,9 +56,9 @@ To run this project locally, you'll need to follow these steps.
 ### 📋 Prerequisites
 
 Make sure you have the following installed on your machine:
-- [Ruby 3.1.3 or higher](https://www.ruby-lang.org/en/)
-- [Rails 7.0.4 or higher](https://rubyonrails.org/)
-- [PostgreSQL 15.2 or higher](https://www.postgresql.org/)
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+
 
 ### 📂 Setup
 
@@ -70,7 +66,7 @@ Clone this repository to your desired foler.
 
 ```sh
 cd my-project
-git clone git@github.com:Besufekad-HAZ/hello-rails-backend-app.git
+git clone git@github.com:Besufekad-HAZ/hello-react-front-end-app.git
 ```
 
 ### 📥 Installation
@@ -78,23 +74,20 @@ git clone git@github.com:Besufekad-HAZ/hello-rails-backend-app.git
 Install the required gems with:
 
 ```sh
-bundle install
+npm install
 ```
+### 📦 Build
 
-
-### 💾 Database
-
-Create the databases and run migrations with:
+Build the front-end assets with:
 
 ```sh
-rails db:create
-rails db:migrate
+npm run build
 ```
 
-To load the sample data, run:
+You can also set it to *watch mode* which automatically build after every changes. To start the *watch mode*, use:
 
 ```sh
-rails db:seed
+npm run watch
 ```
 
 ### 💻 Usage
@@ -102,7 +95,7 @@ rails db:seed
 After building the assets, run the development server with the following command:
 
 ```sh
-rails server
+npm run dev
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
